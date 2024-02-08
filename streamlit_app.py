@@ -10,7 +10,7 @@ with st.sidebar:
          c.header('DESCRIPTION')
          st.divider()
          c.write('The Iris flower data set or Fishers Iris data set is a multivariate data set used and made famous by the British statistician and biologist Ronald Fisher in his 1936 paper The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis.')
-my_dataset = "C:/Users/User 36/Desktop/deployement/Iris.csv"
+my_dataset = "Iris.csv"
 df = pd.read_csv(my_dataset)
 if st.checkbox("Preview DataFrame"):
 	
